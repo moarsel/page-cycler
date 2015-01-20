@@ -31,6 +31,7 @@ $(document).on("ready", function (e){
         }
     }
 
+
     var next = function () {
         $('.front, .back').toggleClass('active inactive');
         $('.current').text($('.active').attr("src"));
