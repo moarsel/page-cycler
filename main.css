@@ -6,12 +6,12 @@ body {
     margin: 0;
     background-repeat: no-repeat;
     background-color:#eee;
-    background: -ms-linear-gradient(top, #E6E6E6 0%, #B8B8B8 90%, #C2C2C2 100%);
-    background: -moz-linear-gradient(top, #E6E6E6 0%, #B8B8B8 90%, #C2C2C2 100%);
-    background: -o-linear-gradient(top, #E6E6E6 0%, #B8B8B8 90%, #C2C2C2 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #E6E6E6), color-stop(0.9, #B8B8B8), color-stop(1, #C2C2C2));
-    background: -webkit-linear-gradient(top, #E6E6E6 0%, #B8B8B8 90%, #C2C2C2 100%);
-    background: linear-gradient(to bottom, #E6E6E6 0%, #B8B8B8 90%, #C2C2C2 100%);
+    background: -ms-linear-gradient(top, #E6E6E6 0%, #EEE 90%);
+    background: -moz-linear-gradient(top, #E6E6E6 0%, #EEE 90%);
+    background: -o-linear-gradient(top, #E6E6E6 0%, #EEE 90%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #E6E6E6), color-stop(0.9, #EEE));
+    background: -webkit-linear-gradient(top, #E6E6E6 0%, #EEE 90%);
+    background: linear-gradient(to bottom, #E6E6E6 0%, #EEE 90%);
  font-size:14px;
 }
 
@@ -49,7 +49,7 @@ h1{
     display:none;
 }
 .back{
-    /*display:none;*/
+    display:none;
 }
 .front{
     display:none;

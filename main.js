@@ -24,6 +24,7 @@ $(document).on("ready", function (e){
             $('.front').attr('src', f);
             $('.back').attr('src', b);
             $('.front').addClass('active');
+            $('.back').addClass('inactive');
             $('.current').text($('.front').attr("src"));
             $('.mainpage').hide();
             $('.controls').show();
@@ -49,6 +50,7 @@ $(document).on("ready", function (e){
 
     $(".reset").on('click', function(){
         $('.mainpage').show();
-        $('.active').removeClass('active')
+        $('.active').removeClass('active');
+        // $('.active')
     });
 });
