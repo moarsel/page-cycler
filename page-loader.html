@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>Page Cycler</title>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="Page cycler lets you scan through websites quickly">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <iframe id='frame1' src="about:blank" class='back inactive'></iframe>
+        <iframe id='frame2' src="about:blank" class='front '></iframe>
+        <div>
+            <h1 class='mainpage'>Page Cycler</h1>
+            <div id="instructions" class="center-box mainpage">
+                <p>Page Cycler lets you scan a list of pages quickly by preloading the next page for you. You can restart by refreshing the page. This method doesn't work for a few pages (like Google.com) that block the use of iframes.</p>
+            </div>
+
+            <div class='center-box mainpage dialog' title="Paste your URLs">
+                <p>Paste your URLs, one per line</p>
+                <textarea id="pasted_text">
+                http://example.com
+                russellhoy.com
+                http://www.mystorybook.com
+                </textarea></br>
+                <button class="start" type="button">Start</button>
+            </div>
+        </div>
+
+        <div class='controls' class="center-box">
+            <button class="next" type="button" > Next Page  ></button>
+        </br>
+        <a class='current'></a> <button class="reset" type="button" >Restart</button>
+    </div>
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="main.js"></script>
+
+    </body>
+</html>
